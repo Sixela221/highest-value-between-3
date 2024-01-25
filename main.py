@@ -1,11 +1,9 @@
-x= int(input("entrer une 1ère valeur:"))
-y= int(input("entrer une 2ème valeur:"))
-z= int(input("entrer une 3ème valeur:"))
+x= int(input("enter a first value:"))
+y= int(input("enter a second value:"))
+z= int(input("enter a third value:"))
 if (x>y) & (x>z):
-    print("la plus grande valeur est:",x)
+    print("The highest value is:",x)
 elif (z>y) & (z>x):
-    print("la plus grande valeur est:",z)
+    print("The highest value is:",z)
 else:
-    print("la plus grande valeur est:",y)
-
-
+    print("The highest value is:",y)
